@@ -8,7 +8,7 @@ import Heading from "../Heading";
 import Input from "../inputs/Input";
 import { toast } from "react-hot-toast";
 import { FcGoogle } from "react-icons/fc";
-import { BsFacebook } from "react-icons/bs"; 
+import { BsFacebook } from "react-icons/bs";
 
 import Button from "../Button";
 const RegisterModal = () => {
@@ -114,13 +114,14 @@ const RegisterModal = () => {
         <div className="flex flex-row items-center justify-center gap-2">
           <div>Already have an account ?</div>
           <div
-          onClick={registerModal.onClose}
-          className="
+            onClick={registerModal.onClose}
+            className="
           text-rose-500
           font-bold
           cursor-pointer
           hover:underline">
-            Log in</div>
+            Log in
+          </div>
         </div>
       </div>
     </div>
